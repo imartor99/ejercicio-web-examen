@@ -1,5 +1,5 @@
-import { Book } from "../js/book.js";
-import { BookList } from "../js/booklist.js";
+import { Book } from "../src/book.js";
+import { BookList } from "../src/booklist.js";
 
 describe("BookList Core Functionality", () => {
   let myBookList;
