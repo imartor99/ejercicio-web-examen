@@ -53,7 +53,7 @@ jobs:
       - name: Cargo Documentacion Artefacto
         uses: actions/upload-artifact@v4
         with:
-          name: jsdoc-html-docs
+          name: jsdoc-documentation
           path: docs/ # Asume que jsdoc genera archivos en una carpeta llamada 'docs'
 
   deploy:
